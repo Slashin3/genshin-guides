@@ -11,7 +11,8 @@
     "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://slashin3.github.io/genshin-guides100/"
+    "homepage": "https://Slashin3.github.io/genshin-guides-new/"
+
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
