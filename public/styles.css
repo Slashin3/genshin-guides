@@ -92,7 +92,9 @@ h1 {
 }
 
 /* Rarity, Element, Weapon Styles */
-.rarity, .element, .weapon {
+.rarity,
+.element,
+.weapon {
   flex: 1;
   text-align: center;
   border-radius: 4px;
@@ -100,12 +102,16 @@ h1 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.rarity p, .element p, .weapon p {
+.rarity p,
+.element p,
+.weapon p {
   margin: 0;
   font-size: 14px;
 }
 
-.rarity:hover, .element:hover, .weapon:hover {
+.rarity:hover,
+.element:hover,
+.weapon:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -171,14 +177,16 @@ h1 {
 }
 
 /* Element and Weapon Component Styles */
-.element-container, .weapon-container {
+.element-container,
+.weapon-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
 
-.element-button, .weapon-button {
+.element-button,
+.weapon-button {
   background: none;
   border: none;
   padding: 0;
@@ -186,16 +194,41 @@ h1 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.element-button.active, .weapon-button.active {
+.element-button.active,
+.weapon-button.active {
   outline: 2px solid #00bcd4; /* Highlight color for active button */
 }
 
-.element-button img, .weapon-button img {
+.element-button img,
+.weapon-button img {
   height: 40px;
   width: 40px;
   transition: transform 0.2s ease-in-out;
 }
 
-.element-button img:hover, .weapon-button img:hover {
+.element-button img:hover,
+.weapon-button img:hover {
   transform: scale(1.2);
+}
+
+/* Style for character names */
+.character-name {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.character-name:hover {
+  color: #00bcd4;
+}
+
+/* Styling for Link elements */
+.character-link {
+  color: white;           /* Change text color to white */
+  text-decoration: none;  /* Remove underline */
+}
+
+.character-link:hover {
+  text-decoration: underline; /* Optional: Add underline on hover if desired */
 }

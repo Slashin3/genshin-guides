@@ -17,6 +17,9 @@ function CharacterPage() {
       <img src={character.imgSrc} alt={character.name} style={{ maxWidth: '100%', height: 'auto' }} />
       <p>{character.description}</p>
       <h2>Recommended Weapons</h2>
+      <h2>Artifacts</h2>
+      <h2>Team Compositions</h2>
+      <h2>Rotations</h2>
     </div>
   );
 }

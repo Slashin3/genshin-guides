@@ -221,6 +221,8 @@ const characterList = [
     rarity: 5,
     element: "hydro",
     weapon: "Catalyst",
+    description:
+      "Mona is a renowned astrologer known for her mysterious and enigmatic personality. She uses Hydro abilities to manipulate the elements and unveil hidden truths. Despite her financial struggles, she is deeply devoted to her craft and pursues her work with great passion.",
   },
   {
     name: "Nahida",
@@ -228,6 +230,7 @@ const characterList = [
     rarity: 5,
     element: "dendro",
     weapon: "Catalyst",
+    description: "Nahida, the Dendro Archon, is a wise and gentle figure from Sumeru. Her deep connection to the natural world and her knowledge of the Dendro element make her a revered leader in her region. She is known for her nurturing nature and profound understanding of the world."
   },
   {
     name: "Navia",
@@ -235,6 +238,8 @@ const characterList = [
     rarity: 5,
     element: "geo",
     weapon: "Claymore",
+    Description: "Navia is a distinguished Geo user with a stoic and commanding presence. Known for her exceptional skill with a Claymore, she embodies the strength and resilience of the Geo element. Her leadership and unwavering dedication make her a respected figure among her peers."
+
   },
   {
     name: "Neuvillette",
@@ -242,6 +247,7 @@ const characterList = [
     rarity: 5,
     element: "hydro",
     weapon: "Polearm",
+    description:"Neuvillette is a skilled warrior known for his prowess with the Polearm and his control over the Hydro element. His calm demeanor and strategic mind make him a formidable opponent and a respected leader in battle."
   },
   {
     name: "Nilou",

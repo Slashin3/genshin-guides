@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Image from './Image';
 import Nav from './Nav';
 import characterList from './characterList';
-import CharacterPage from './CharacterPage'; // Import the character page component
+import CharacterPage from './CharacterPage';
 
 function App() {
   const [searchTerm, setSearchTerm] = React.useState("");
@@ -45,7 +45,6 @@ function App() {
             <div>
               <h1>Genshin Impact Character Guides</h1>
               
-              {/* Search Bar */}
               <input
                 type="text"
                 placeholder="Search characters..."
@@ -54,7 +53,6 @@ function App() {
                 className="search-bar"
               />
 
-              {/* Navigation Component */}
               <Nav
                 onRarityChange={handleRarityChange}
                 selectedRarity={selectedRarity}
@@ -64,15 +62,14 @@ function App() {
                 selectedWeapon={selectedWeapon}
               />
 
-              {/* Display Filtered Characters */}
               <div className="img-container">
                 {filteredCharacters.map((character, index) => (
-                  <Image
-                    key={index}
-                    imgSrc={character.imgSrc}
-                    name={character.name}
-                    onClick={() => window.location.href = `/${character.name}`}
-                  />
+                  <Link to={`/${character.name}`} key={index} className="character-link">
+                    <Image
+                      imgSrc={character.imgSrc}
+                      name={character.name}
+                    />
+                  </Link>
                 ))}
               </div>
             </div>
