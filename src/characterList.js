@@ -144,7 +144,7 @@ const characterList = [
       "A half-qilin Adeptus in Liyue, known for her mastery of Cryo and her role as a dedicated envoy of the Geo Archon.",
   },
   {
-    name: "Hu Tao",
+    name: "HuTao",
     imgSrc: "https://rerollcdn.com/GENSHIN/Characters/1/Hu%20Tao.png",
     rarity: 5,
     element: "pyro",

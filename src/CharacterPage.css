@@ -1,0 +1,35 @@
+.weapon-table {
+  width: 120%;
+  border-collapse: collapse;
+ 
+}
+
+.weapon-table th,
+.weapon-table td {
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center; /* Center-aligns the content */
+}
+
+.weapon-table th {
+  font-weight: bold;
+  background-color: #333;
+}
+
+.weapon-table td {
+  background-color: #111;
+  width: 0%; /* Ensures each column takes up an equal amount of space */
+}
+
+/* Optional: Adjust specific rows or cells if needed */
+.weapon-table td:nth-child(1) {
+  text-align: left; /* Aligns the first column text to the left */
+}
+
+.five-star {
+  color: gold;
+}
+
+.four-star{
+    color: rgb(201, 108, 201);
+}

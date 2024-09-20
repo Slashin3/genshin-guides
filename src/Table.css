@@ -1,0 +1,50 @@
+/* Table.css */
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-table th, .custom-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .custom-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .custom-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .custom-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Optional: Space out the cells in specific columns */
+  .role-space {
+    padding-right: 30px; /* Adjust as needed */
+  }
+  
+  .ability-tips-space {
+    padding-left: 30px; /* Adjust as needed */
+  }
+  
+  /* Additional styling for different cell types */
+  .five-star {
+    color: #ffcc00; /* Example color for 5-star items */
+  }
+  
+  .four-star {
+    color: #f1c40f; /* Example color for 4-star items */
+  }
+  
+  .three-star {
+    color: #bdc3c7; /* Example color for 3-star items */
+  }
+  
